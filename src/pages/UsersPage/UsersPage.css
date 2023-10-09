@@ -1,0 +1,16 @@
+.users-page{
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width:760px) {
+    .top-sec.sticky-nav{
+        position: fixed;
+        top: 55px;
+        width: 100%;
+        background-color: #09c1ce;
+        z-index: 99;
+    }
+}
+

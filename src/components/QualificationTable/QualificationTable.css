@@ -1,0 +1,204 @@
+.qualification-table .filters{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.qualification-table .filters>div{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: 20px;
+}
+
+.qualification-table .filters>div .checkbox{
+    display: flex;
+    gap: 5px;
+}
+
+.qualification-table .filters>div .checkbox label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.MuiTableRow-root>*{
+    padding: 10px;
+
+}
+
+.MuiTableRow-root.MuiTableRow-head>*{
+    font-weight: bold !important;
+}
+
+/* .Table td,th{
+    border: none !important;
+} */
+
+.Table:first-child{
+    border-radius: 0.7rem !important;
+}
+
+.status{
+    padding: 8px;
+    border-radius: 9px;
+}
+
+.qualificationTableCards{
+    display: none !important;
+}
+
+
+@media screen and (max-width:760px) {
+    .qualificationTable{
+        display: none !important;
+    }
+
+    /* .qualification-table .filters.sticky-nav{
+        position: fixed;
+        width: 100%;
+        top:96px;
+        background-color: #09c1ce;
+        z-index: 99;
+    }
+
+    .qualification-table .filters.sticky-nav label{
+        color: rgb(32, 29, 29);
+    }
+
+    .qualification-table .filters>div{
+        gap: 10px;
+    } */
+
+    .Table{
+        max-height: none !important;
+        overflow: visible !important;
+    }
+
+    .qualificationTableCards{
+        display: block !important;
+        padding: 5px 10px !important;
+        margin: 5px !important;
+    }
+
+    .qualificationTableCards .card{
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    .qualificationTableCards .card .card-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .qualificationTableCards .card .card-icon .per-icon{
+        background-color: orange;
+        height: 50px;
+        width: 50px;
+        color: #FFFFFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .qualificationTableCards .card .card-icon .per-icon .icon{
+        font-size: 30px;
+    }
+
+   
+
+    .qualificationTableCards .card .card-data tr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .qualificationTableCards .card .card-data th{
+        width: 50px;
+        display: flex;
+        justify-content: flex-start;
+        font-weight: 500;
+    }
+
+    .qualificationTableCards .card .card-data td{
+        width: 100px;
+        color: orange;
+    }
+
+    .qualificationTableCards .card .status{
+        padding: 3px;
+        font-size: 10px;
+        border-radius: 2px;
+    }
+
+    .qualificationTableCards .card .actions{
+        display: flex;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .qualificationTableCards .card .card-icon{
+        width: 50%;
+    }
+
+    
+    .qualificationTableCards .card .card-icon .per-icon{
+        width: 80px;
+        height: 80px;
+    }
+
+    .qualificationTableCards .card .card-data{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .qualificationTableCards .card .card-data th{
+        width: 70px;
+        
+    }
+
+    .qualificationTableCards .card .card-data td{
+        width: 70px;
+    }
+}
+
+@media screen and (max-width:400px) {
+.qualificationTableCards .card .card-icon{
+    width: 80px;
+}
+
+.qualificationTableCards .card .card-icon .per-icon{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.qualificationTableCards .card .card-icon .per-icon .icon{
+    font-size: 35px;
+}
+
+}
+
+@media screen and (max-width:300px) {
+    .qualificationTableCards .card .card-icon{
+        width: 50px;
+    }
+    
+    .qualificationTableCards .card .card-icon .per-icon{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .qualificationTableCards .card .card-icon .per-icon .icon{
+        font-size: 20px;
+    }
+    
+    }

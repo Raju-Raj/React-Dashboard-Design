@@ -1,0 +1,35 @@
+.layout{
+    margin: 10px 20px !important;
+    height: calc(98% - 10px) !important;
+    width: 97% !important;
+    overflow: hidden !important;
+    display: flex !important;
+    gap:10px !important;
+    background:#e7f4fd !important;
+    border-radius: 16px !important;
+    padding: 12px !important;
+}
+
+.layout .content{
+    width: 100% !important;
+}
+
+@media screen and (max-width:900px) {
+    .layout{
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0 !important;
+        border-radius: 0px !important;
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .layout{
+        overflow-y: scroll !important;
+    }
+
+    .layout::-webkit-scrollbar{
+        display: none !important;
+    }
+}

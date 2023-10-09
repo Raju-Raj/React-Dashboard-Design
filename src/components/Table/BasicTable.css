@@ -1,0 +1,189 @@
+.MuiTableRow-root>*{
+    padding: 10px;
+
+}
+
+.MuiTableRow-root.MuiTableRow-head>*{
+    font-weight: bold !important;
+}
+
+/* .Table td,th{
+    border: none !important;
+} */
+
+.Table{
+    margin-top: 10px;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.Table:first-child{
+    border-radius: 0.7rem !important;
+}
+
+.status{
+    padding: 8px;
+    border-radius: 9px;
+}
+
+.basicTableCards{
+    display: none !important;
+}
+
+/* 
+
+@media screen and (max-width:1200px) {
+    .Table{
+        width:170%;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:768px){
+  .Table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+  }
+} */
+
+@media screen and (max-width:760px) {
+    .basicTable{
+        display: none !important;
+    }
+
+    .Table{
+        max-height: none !important;
+        overflow: visible !important;
+    }
+
+    .basicTableCards{
+        display: block !important;
+        padding: 5px 10px !important;
+        margin: 5px !important;
+    }
+
+    .basicTableCards .card{
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    .basicTableCards .card .card-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .basicTableCards .card .card-icon .per-icon{
+        background-color: orange;
+        height: 50px;
+        width: 50px;
+        color: #FFFFFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .basicTableCards .card .card-icon .per-icon .icon{
+        font-size: 30px;
+    }
+
+   
+
+    .basicTableCards .card .card-data tr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .basicTableCards .card .card-data th{
+        width: 50px;
+        display: flex;
+        justify-content: flex-start;
+        font-weight: 500;
+    }
+
+    .basicTableCards .card .card-data td{
+        width: 100px;
+        color: orange;
+    }
+
+    .basicTableCards .card .status{
+        padding: 3px;
+        font-size: 10px;
+        border-radius: 2px;
+    }
+
+    .basicTableCards .card .actions{
+        display: flex;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .basicTableCards .card .card-icon{
+        width: 50%;
+    }
+
+    
+    .basicTableCards .card .card-icon .per-icon{
+        width: 80px;
+        height: 80px;
+    }
+
+    .basicTableCards .card .card-data{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .basicTableCards .card .card-data th{
+        width: 70px;
+        
+    }
+
+    .basicTableCards .card .card-data td{
+        width: 70px;
+    }
+}
+
+@media screen and (max-width:400px) {
+.basicTableCards .card .card-icon{
+    width: 80px;
+}
+
+.basicTableCards .card .card-icon .per-icon{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.basicTableCards .card .card-icon .per-icon .icon{
+    font-size: 35px;
+}
+
+}
+
+@media screen and (max-width:300px) {
+    .basicTableCards .card .card-icon{
+        width: 50px;
+    }
+    
+    .basicTableCards .card .card-icon .per-icon{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .basicTableCards .card .card-icon .per-icon .icon{
+        font-size: 20px;
+    }
+    
+    }

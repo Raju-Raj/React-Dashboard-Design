@@ -1,0 +1,181 @@
+.MuiTableRow-root>*{
+    padding: 10px;
+
+}
+
+.MuiTableRow-root.MuiTableRow-head>*{
+    font-weight: bold !important;
+}
+
+/* .Table td,th{
+    border: none !important;
+} */
+
+.Table:first-child{
+    border-radius: 0.7rem !important;
+}
+
+.adminTableCards{
+    display: none !important;
+}
+
+
+
+
+
+/* @media screen and (max-width:1200px) {
+    .Table{
+        width:170%;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:768px){
+  .Table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+  }
+} */
+
+
+@media screen and (max-width:760px) {
+    .adminTable{
+        display: none !important;
+    }
+
+    .Table{
+        max-height: none !important;
+        overflow: visible !important;
+    }
+
+    .adminTableCards{
+        display: block !important;
+        padding: 5px 10px !important;
+        margin: 5px !important;
+    }
+
+    .adminTableCards .card{
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    .adminTableCards .card .card-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adminTableCards .card .card-icon .per-icon{
+        background-color: orange;
+        height: 50px;
+        width: 50px;
+        color: #FFFFFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adminTableCards .card .card-icon .per-icon .icon{
+        font-size: 30px;
+    }
+
+   
+
+    .adminTableCards .card .card-data tr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adminTableCards .card .card-data th{
+        width: 50px;
+        display: flex;
+        justify-content: flex-start;
+        font-weight: 500;
+    }
+
+    .adminTableCards .card .card-data td{
+        width: 100px;
+        color: orange;
+    }
+
+    .adminTableCards .card .status{
+        padding: 3px;
+        font-size: 10px;
+        border-radius: 2px;
+    }
+
+    .adminTableCards .card .actions{
+        display: flex;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .adminTableCards .card .card-icon{
+        width: 50%;
+    }
+
+    
+    .adminTableCards .card .card-icon .per-icon{
+        width: 80px;
+        height: 80px;
+    }
+
+    .adminTableCards .card .card-data{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .adminTableCards .card .card-data th{
+        width: 70px;
+        
+    }
+
+    .adminTableCards .card .card-data td{
+        width: 70px;
+    }
+}
+
+@media screen and (max-width:400px) {
+.adminTableCards .card .card-icon{
+    width: 80px;
+}
+
+.adminTableCards .card .card-icon .per-icon{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.adminTableCards .card .card-icon .per-icon .icon{
+    font-size: 35px;
+}
+
+}
+
+@media screen and (max-width:300px) {
+    .adminTableCards .card .card-icon{
+        width: 50px;
+    }
+    
+    .adminTableCards .card .card-icon .per-icon{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .adminTableCards .card .card-icon .per-icon .icon{
+        font-size: 20px;
+    }
+    
+    }

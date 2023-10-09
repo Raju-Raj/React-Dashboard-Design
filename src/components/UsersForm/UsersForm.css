@@ -1,0 +1,33 @@
+.user-form{
+    height: 100%;
+    margin-top: 10px;
+}
+
+.user-form .form-group{
+    display: flex;
+    gap: 10px;
+}
+
+.custom-snackbar{
+    max-width: 50px !important;
+    background-color: green !important;
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+@media screen and (max-width:599px) {
+    .custom-snackbar{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .user-form{
+        height: 90vh;
+    }
+    .user-form .form-group{
+        flex-direction: column;
+    }
+
+}

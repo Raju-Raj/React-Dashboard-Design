@@ -1,0 +1,18 @@
+.admin-form{
+    height: 100%;
+    margin-top: 10px;
+}
+
+.admin-form .form-group{
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width:490px) {
+    .admin-form{
+        height: 90vh;
+    }
+    .admin-form .form-group{
+        flex-direction: column;
+    }
+}

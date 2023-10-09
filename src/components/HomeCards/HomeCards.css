@@ -1,0 +1,31 @@
+.homeCards{
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+
+.homeCards  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.homeCards .card-content .card-content-bottom{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.homeCards .card-content .card-content-bottom div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
